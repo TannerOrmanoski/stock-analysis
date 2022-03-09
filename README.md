@@ -3,7 +3,9 @@
 The purpose of this analysis was to refactor the code, that we previously wrote, to make it faster and more efficient. This code was used to scan through a list of stock data and display different metrics that indicated the performance of the various stocks in the years of 2017 and 2018. The metrics used were the total daily volume and the returns of twelve different stock tickers. 
 ## Results
 After running the macro on both years, it was obvious that these stocks performed much better in 2017. In 2017, only one stock had a negative return, compared to 2018 where ten stocks had a negative return.
-![](Stock_Results_2017.png) ![](Stock_Results_2018.png) 
+
+![](Stock_Results_2017.png) 
+![](Stock_Results_2018.png) 
 
 Another result was a faster run time for the refactored code. (Insert run time pictures) The refactoring helped trim out some of the unnecessary code, which led to a faster and more efficient code. We were able to take the original code that includes multiple subs and condense them into just a single sub. The code was refined in some of our if/then statements as well. The “and” portion of the if/then statements was unnecessary, so it was dropped. (Insert if/then pics) 
 ## Summary
