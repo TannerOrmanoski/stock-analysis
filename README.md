@@ -14,7 +14,12 @@ Another result was a faster run time for the refactored code.
 
 The refactoring helped trim out some of the unnecessary code, which led to a faster and more efficient code. We were able to take the original code that includes multiple subs and condense them into just a single sub. The code was refined in some of our if/then statements as well. The “and” portion of the if/then statements was unnecessary, so it was dropped.
 
+Original Code
+
 ![](If_Then_Original.png)
+
+Refactored Code
+
 ![](If_Then_Refactored.png)
 
 ## Summary
